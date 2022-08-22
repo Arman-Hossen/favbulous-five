@@ -31,3 +31,14 @@ function setTextElementValueById(elementId, newValue){
     textElement.innerText = newValue;
 
 }
+
+function getElementValueById(elementId){
+
+    const textElement = document.getElementById(elementId);
+
+    const textElementValue = parseInt(textElement.innerText);
+
+    return textElementValue;
+
+}
+
