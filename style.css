@@ -34,3 +34,6 @@ body{
     padding-top: 1%;
     padding-bottom: 4%;
 }
+.selected-card{
+    height: 377px !important;
+}
